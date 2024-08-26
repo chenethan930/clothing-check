@@ -4,7 +4,6 @@ import requests
 from PIL import Image
 import json
 import streamlit as st
-import config
 
 with st.form("my_form"):
     uploaded_file = st.file_uploader("Choose a file", type=["jpeg", "png", "jpg"])
